@@ -1,0 +1,96 @@
+body{
+    background-color: #4b0534; /*sets the background color for body*/
+    color: white; /*sets the text color for body*/
+    font-family: Times New Roman; /*sets the text style for body*/
+    text-align: center; /*all text in the body is in the middle*/
+}
+
+header{
+    background-color: #2c021e; /*sets background color of header*/
+    color: #ffffff; /*sets color of text*/
+}
+
+.container {
+    display: flex; /*makes it possible to put boxes in a row*/
+    justify-content: center; /*puts boxes in the center*/
+    padding: 25px; /*makes padding 25 to keep distance from sides*/
+    flex-direction: row; /*puts boxes in a row*/
+}
+
+a{
+    color: white; /*makes color of links white*/
+}
+
+.column1{
+    width: 400px; /*sets width of boxes to 400px*/
+    a{
+        color: white; /*makes color of links white*/
+    }
+    background-color: #2c021e; /*sets background color*/
+    color: white; /*sets text color*/
+    border: 2px solid white; /*sets color for border and makes it 2px*/
+}
+
+.column2{
+    width: 400px; /*sets width of boxes to 400px*/
+    a{
+        color: #ffffff; /*makes color of links white*/
+    }
+    background-color: #4b0534; /*sets background color*/
+    color: white; /*sets text color*/
+    border: 2px solid #ffffff; /*sets color for border and makes it 2px*/
+}
+
+.column3{
+    width: 400px; /*sets width of boxes to 400px*/
+    a{
+        color: white; /*makes color of links white*/
+    }
+    background-color: #2c021e; /*sets background color*/
+    color: white; /*sets text color*/
+    border: 2px solid white; /*sets color for border and makes it 2px*/
+    h2{
+        font-family: Cursive; /*for h2 sets the style to cursive and padding to 70px (from all sides)*/
+        padding: 70px;
+    }
+}
+
+.content {
+    display: flex; /*makes it possible to put boxes in a row*/
+    flex-wrap: wrap; /*allows wrapping of boxes*/
+    justify-content: center; /*puts boxes in the center*/
+    align-content: stretch; /*stretches content to fill space*/
+}
+
+.first{
+    width: 550px; /*sets width of boxes to 550px*/
+    height: 450px; /*sets height of boxes to 450px*/
+    border: 2px solid #2c021e; /*sets color for border and makes it 2px*/
+    background-color: #805371; /*sets background color*/
+    color: #2c021e; /*sets text color*/
+}
+
+.second{
+    width: 550px; /*sets width of boxes to 550px*/
+    height: 450px; /*sets height of boxes to 450px*/
+    background-color: #2c021e; /*sets background color*/
+    border: 2px solid #2c021e; /*sets color for border and makes it 2px*/
+    color: #ffffff; /*sets text color*/
+}
+
+.third{
+    width: 550px; /*sets width of boxes to 550px*/
+    height: 450px; /*sets height of boxes to 450px*/
+    background-color: #2c021e; /*sets background color*/
+    border: 2px solid #2c021e; /*sets color for border and makes it 2px*/
+    color: #ffffff; /*sets text color*/
+    text-align: center; /*aligns text to center*/
+}
+
+.fourth{
+    width: 550px; /*sets width of boxes to 550px*/
+    height: 450px; /*sets height of boxes to 450px*/
+    border: 2px solid #2c021e; /*sets color for border and makes it 2px*/
+    background-color: #805371; /*sets background color*/
+    color: #2c021e; /*sets text color*/
+}

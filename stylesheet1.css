@@ -1,0 +1,63 @@
+body{
+background-color: #253439; /*sets the background color for body*/
+color: white; /*sets the text color for body*/
+font-family: Times New Roman; /*sets the text style for body*/
+text-align: center; /*all text in the body is in the middle*/
+}
+header{
+background-color: white;  /*sets background color of header to white*/
+color: #253439; /*sets color of text*/
+}
+.container {
+display: flex; /*makes it possible to put boxes in a row*/
+justify-content: center; /*puts boxes in the center*/
+padding: 25px;/*makes padding 25 to keep distance from sides*/
+flex-direction: row; /*puts boxes in a row*/
+}
+a{
+color: white; /*makes color of links white*/
+}
+.column1{
+    width:400px; /*sets width of boxes to 400px*/
+border: 2px solid #0c1f25; /*sets color for border and makes it 2px*/
+}
+.column2{
+    width:400px; /*sets width of boxes to 400px*/
+a{
+    color: #253439; /*makes color of links dark*/
+}
+background-color: white; /*makes the color of background of second box white*/
+color:#253439; /*sets the text color to dark*/
+border: 2px solid #0c1f25; /*sets color for border and makes it 2px*/
+}
+.column3{
+    width:400px; /*sets width of boxes to 400px*/
+border: 2px solid #0c1f25; /*sets color for border and makes it 2px*/
+h2{
+font-family: Cursive; /*for h2 sets the style to cursive and padding to 70px (from all sides)*/
+padding:70px;
+}
+}
+
+.container2 { 
+    display: flex;/*makes it possible to put boxes in a row*/
+    justify-content: space-between; /*sets equal distance between boxes*/
+    padding: 25px; /*makes padding 25 to keep distance from sides*/
+    flex-direction: row;  /*puts boxes in a row*/
+    }
+    .column-left{
+        width: 450px;/*sets width of boxes to 450px*/
+        border: 2px solid #0c1f25; /*sets color for border and makes it 2px*/
+        background-color: white; /*makes the color of background of this box to white*/
+        color:#253439;/*sets the text color to dark*/
+        }
+    .column-center{
+        width: 450px;/*sets width of boxes to 450px*/
+        border: 2px solid #0c1f25; /*sets color for border and makes it 2px*/
+    }
+    .column-right{
+        width: 450px; /*sets width of boxes to 450px*/
+        border: 2px solid #0c1f25; /*sets color for border and makes it 2px*/
+        background-color: white; /*makes the color of background of this box to white*/
+        color:#253439;/*sets the text color to dark*/
+    }
